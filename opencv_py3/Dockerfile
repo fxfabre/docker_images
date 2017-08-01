@@ -24,4 +24,5 @@ RUN ldconfig
 RUN useradd -ms /bin/bash cv_user
 USER cv_user
 WORKDIR /home/cv_user
+ADD .bashrc .bashrc
 
