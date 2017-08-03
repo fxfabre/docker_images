@@ -152,7 +152,7 @@ else
 fi
 
 # Verify that the original Dockerfile exists
-ORIG_DOCKERFILE="${SCRIPT_DIR}/${ORIG_DOCKERFILE}"
+ORIG_DOCKERFILE="${SCRIPT_DIR}/../${ORIG_DOCKERFILE}"
 if [[ ! -f "${ORIG_DOCKERFILE}" ]]; then
   die "ERROR: Cannot find Dockerilfe at: ${ORIG_DOCKERFILE}"
 fi

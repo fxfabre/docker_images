@@ -7,7 +7,7 @@ export TF_DOCKER_BUILD_IMAGE_NAME=tensorflow_py3
 export TF_DOCKER_BUILD_VERSION=1.2
 export TF_DOCKER_BUILD_PYTHON_VERSION=PYTHON3
 
-./parameterized_docker_build.sh
+./scripts/parameterized_docker_build.sh
 
 
 
